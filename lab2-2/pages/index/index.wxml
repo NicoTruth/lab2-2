@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <image class="bgImg" src="/image/home.png"></image>
+</view>
+
+<view>
+<button class="begin_btn" hover-class="hover" bindtap="goToHome">开始</button>
+</view>

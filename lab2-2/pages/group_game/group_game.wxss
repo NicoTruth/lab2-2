@@ -1,0 +1,125 @@
+/* pages/group_game/group_game.wxss */
+.other-widget{
+    position: absolute;
+}
+page {
+  height: 100%;
+}
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.font_create{
+  position: fixed;
+  margin: 0 5%;
+  bottom:900rpx;
+  left: 190rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 300rpx;
+  height: 300rpx;
+  color: #325ff1;
+  font-size: medium;
+  font-weight: 550;
+}
+
+.font_create2{
+  position: fixed;
+  margin: 0 5%;
+  bottom:840rpx;
+  left: 190rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 300rpx;
+  height: 300rpx;
+  color: #325ff1;
+  font-size: medium;
+  font-weight: 550;
+}
+
+.create{
+  position: fixed;
+  margin: 0 5%;
+  bottom:700rpx;
+  left:60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 600rpx;
+  height: 600rpx;
+}
+
+.font_join{
+  position: fixed;
+  margin: 0 5%;
+  bottom:350rpx;
+  left: 240rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 200rpx;
+  height: 200rpx;
+  color: #f1ee22;
+  font-size:medium;
+  font-weight: 550;
+}
+.font_join2{
+  position: fixed;
+  margin: 0 5%;
+  bottom:290rpx;
+  left: 240rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 200rpx;
+  height: 200rpx;
+  color: #f1ee22;
+  font-size:medium;
+  font-weight: 550;
+}
+
+.join{
+  position: fixed;
+  margin: 0 5%;
+  bottom:100rpx;
+  left:60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 600rpx;
+  height: 600rpx;
+}
+
+.container{
+  width: 100%;
+  height: 1200rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 1220rpx;
+}
+.up{
+  position: absolute;
+  z-index: 1;
+}

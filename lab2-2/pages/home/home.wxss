@@ -1,0 +1,66 @@
+/* pages/home/home.wxss */
+
+page {
+  height: 100%;
+}
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.single_btn {
+  position: absolute;
+  font-size:44rpx;
+  bottom: 100rpx;
+  text-align: center;
+  width: 400rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  left: 180rpx;
+  top: 640rpx;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+/* Press to change color */
+.single_hover {
+  width: 400rpx;
+  height:80rpx;
+  left: 180rpx;
+  top: 640rpx;
+  background:  rgb(241, 231, 82);
+}
+
+.group_btn {
+  position: absolute;
+  font-size:44rpx;
+  bottom: 100rpx;
+  text-align: center;
+  width: 400rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  left: 180rpx;
+  top: 860rpx;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+
+.group_hover {
+  width: 400rpx;
+  height:80rpx;
+  left: 180rpx;
+  top: 860rpx;
+  background:  rgb(241, 231, 82);
+}

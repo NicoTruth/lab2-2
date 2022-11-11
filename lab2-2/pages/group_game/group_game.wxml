@@ -1,0 +1,19 @@
+<view class="container">
+    <image class="bgImg" src="../../image/game.jpg"></image>
+    <other-widget class="other-widget">
+        <view class="gotopage_create">
+            <navigator url='/pages/create/create'>
+                <image src='https://iconfont.alicdn.com/t/d12ec43a-001d-459f-b810-5753c61481cd.png' class='create'></image>
+                <view class='font_create' style='font-size:44rpx'>创建</view>
+                <view class='font_create2' style='font-size:44rpx'>房间</view>
+            </navigator>
+        </view>
+        <view class="gotopage_join">
+            <navigator url='/pages/join/join'>
+                <image src='https://iconfont.alicdn.com/t/d12ec43a-001d-459f-b810-5753c61481cd.png' class='join'></image>
+                <view class='font_join' style='font-size:44rpx'>加入</view>
+                <view class='font_join2' style='font-size:44rpx'>房间</view>
+            </navigator>
+        </view>
+    </other-widget>  
+</view>

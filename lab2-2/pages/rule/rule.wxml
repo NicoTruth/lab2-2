@@ -1,0 +1,7 @@
+<!--pages/rule/rule.wxml-->
+
+<view class="container">
+    <image class="bgImg" src="../../image/rule.jpg"></image>
+    <other-widget class="other-widget"></other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>
+

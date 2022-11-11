@@ -1,0 +1,9 @@
+<view class="container">
+    <image class="bgImg" src="../../image/game.jpg"></image>
+</view>
+<view>
+<button class="single_btn" hover-class="single_hover" bindtap="goToSingle">单人模式</button>
+</view>
+<view>
+<button class="group_btn" hover-class="group_hover" bindtap="goToGroup">多人模式</button>
+</view>
