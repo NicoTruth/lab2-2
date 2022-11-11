@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/home/home",
+        "pages/join/join",
+        "pages/create/create",
+        "pages/group_game/group_game",
+        "pages/single_game/single_game",
+        "pages/rank/rank",
+        "pages/rule/rule"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTitleText": "梁哥儿博饼",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#e6872a",
+        "list": [
+            {
+                "pagePath": "pages/rule/rule",
+                "iconPath": "icon/rule.png",
+                "selectedIconPath": "icon/_rule.png",
+                "text": "博饼规则"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "icon/home.png",
+                "selectedIconPath": "icon/_home.png",
+                "text": "游戏大厅"
+            },
+            {
+                "pagePath": "pages/rank/rank",
+                "iconPath": "icon/rank.png",
+                "selectedIconPath": "icon/_rank.png",
+                "text": "排行榜单"
+            }
+        ]
+    },
+    
+    "useExtendedLib": {
+        "weui": true
+    },
+    "sitemapLocation": "sitemap.json"
+}
